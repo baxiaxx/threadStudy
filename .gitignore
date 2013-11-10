@@ -1,0 +1,16 @@
+
+*.xcscheme
+
+*.xcbkptlist
+
+*.xcuserstate
+
+POSIX/POSIX.xcodeproj/xcuserdata/majie.xcuserdatad/xcschemes/xcschememanagement.plist
+
+NSOperationQueue/NSOperationQueue.xcodeproj/xcuserdata/majie.xcuserdatad/xcschemes/xcschememanagement.plist
+
+GCD/GCD.xcodeproj/xcuserdata/majie.xcuserdatad/xcschemes/xcschememanagement.plist
+
+CFMessagePortRef/CFMessagePortRef.xcodeproj/xcuserdata/majie.xcuserdatad/xcschemes/xcschememanagement.plist
+
+threadStudy.xcworkspace/xcshareddata/threadStudy.xccheckout

@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ImageNormal/ImageNormal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RunLoop/RunLoop.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:GCD/GCD.xcodeproj">
    </FileRef>
    <FileRef

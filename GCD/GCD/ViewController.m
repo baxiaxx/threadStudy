@@ -43,6 +43,7 @@
     NSMutableArray *param = [[NSMutableArray alloc] initWithObjects:viewImage, fname, no, nil];
     
 #if 0 //并发
+    dispatch_get_main_queue()
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [self saveImageToFile:param];
     });

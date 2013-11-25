@@ -20,10 +20,12 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self)
     {
-        //UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 0, 310, 310)];
-        //[self.contentView addSubview:imageView];
-        //self.cellImageView = imageView;
-        // Initialization code
+        //在iOS7上面，这里的subview会挡住draw的图片
+        for (UIView *sub in self.subviews)
+        {
+            //NSLog(@"sub in cell: %@", sub);
+            [sub removeFromSuperview];
+        }
     }
     return self;
 }
@@ -31,11 +33,11 @@
 - (void)loadImage:(NSString *)fname
 {
     NSLog(@"fname: %@", fname);
-    double start = CFAbsoluteTimeGetCurrent();
+    //double start = CFAbsoluteTimeGetCurrent();
     UIImage *image = [UIImage imageWithContentsOfFile:fname];
     //self.cellImageView.image = image;
     self.cellImage = image;
-    double total = CFAbsoluteTimeGetCurrent() - start;
+    //double total = CFAbsoluteTimeGetCurrent() - start;
     //NSLog(@"--load image file: %f", total);
     //加载文件只需要4~5个毫秒
     

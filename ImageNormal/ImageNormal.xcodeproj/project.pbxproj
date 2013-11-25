@@ -46,6 +46,7 @@
 		6C762A721842DD4300E7097E /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C762A611842DD4300E7097E /* 29.jpg */; };
 		6C762A731842DD4300E7097E /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C762A621842DD4300E7097E /* 30.jpg */; };
 		6C762A761842E3EF00E7097E /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C762A751842E3EF00E7097E /* MyCell.m */; };
+		6C762A7F184309FF00E7097E /* MyViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C762A7E184309FF00E7097E /* MyViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,8 @@
 		6C762A621842DD4300E7097E /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 30.jpg; path = ../resource/30.jpg; sourceTree = "<group>"; };
 		6C762A741842E3EF00E7097E /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		6C762A751842E3EF00E7097E /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		6C762A7D184309FF00E7097E /* MyViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewCell.h; sourceTree = "<group>"; };
+		6C762A7E184309FF00E7097E /* MyViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 				6C7629FB1842D15700E7097E /* ViewController.m */,
 				6C762A741842E3EF00E7097E /* MyCell.h */,
 				6C762A751842E3EF00E7097E /* MyCell.m */,
+				6C762A7D184309FF00E7097E /* MyViewCell.h */,
+				6C762A7E184309FF00E7097E /* MyViewCell.m */,
 				6C7629FD1842D15700E7097E /* Images.xcassets */,
 				6C7629EC1842D15700E7097E /* Supporting Files */,
 			);
@@ -299,6 +304,7 @@
 			files = (
 				6C7629FC1842D15700E7097E /* ViewController.m in Sources */,
 				6C762A761842E3EF00E7097E /* MyCell.m in Sources */,
+				6C762A7F184309FF00E7097E /* MyViewCell.m in Sources */,
 				6C7629F61842D15700E7097E /* AppDelegate.m in Sources */,
 				6C7629F21842D15700E7097E /* main.m in Sources */,
 			);
